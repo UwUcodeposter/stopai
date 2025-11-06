@@ -9,19 +9,58 @@ body {
 /* Classes */
 .paragraph {
     text-align: left;
-    font-size: 16px;
-    color: rgba(181, 254, 255, 0.79);
+    font-size: 1.5vw;
+    color: rgba(181, 254, 255, 1);
 }
 
 .button {
     display: block;
+    text-align: center;
     margin: 0 auto;
-    opacity: 100%;
-    
+    padding: 0.25vw 0.5vw;
 
-    transition: opacity 2s ease-in-out;
+    font-size: 1.5vw;
+
+    opacity: 100%;
+    cursor: pointer;
+
+    transition: opacity 0.7s ease-in-out;
 }
+
 
 .button:hover {
     opacity: 50%;
+}
+
+.cite_1 {
+    /* Used document design mode pasted and copied the style */
+
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 11pt; 
+    font-family: "Times New Roman"; 
+    line-height: 200%; 
+    margin-top: 0px; 
+    margin-bottom: 0em; 
+    margin-left: 36pt; 
+    tab-size: 36pt; 
+    text-indent: -36pt;
+}
+
+.cite_2 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 11pt; 
+    line-height: 200%; 
+    margin-top: 0px; 
+    margin-bottom: 0em; 
+    margin-left: 36pt; 
+    tab-size: 36pt; 
+    text-indent: -36pt;
+}
+
+.citeContainer_2 {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: -36pt;
 }
