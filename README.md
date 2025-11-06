@@ -1,0 +1,2 @@
+# stopai
+just a website
