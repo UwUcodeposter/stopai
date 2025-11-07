@@ -1,4 +1,4 @@
-// THIS IS !VIBE CODED (! means not in js)
+// THIS IS !VIBE CODED (! means not in js )
 
 let admin;
 let feedback;
@@ -12,7 +12,7 @@ window.onload = () => {
 }
 
 function feedbackAlert() {
-    if (localStorage.getItem(feedback) === null) {
+    if (localStorage.getItem(feedback) === null && feedback === '' | feedback === undefined) {
         feedback = prompt('Feedback...');
         if (admin === true) {
             alert(feedback);
