@@ -4,32 +4,54 @@
 
 body {
     background-color: rgba(0, 0, 0, 1);
+    margin: 2vw;
+}
+
+footer {
+    background-color: rgb(99, 99, 99);
+    margin: 0.25vw;
+    padding: 2vw;
 }
 
 /* Classes */
 .paragraph {
+    display: block;
     text-align: left;
     font-size: 1.5vw;
     color: rgba(181, 254, 255, 1);
+}
+
+.heading {
+    display: block;
+    text-align: center;
+    font-size: 3vw;
+    color: rgba(181, 254, 255, 1);
+}
+
+.footnote {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 1);
 }
 
 .button {
     display: block;
     text-align: center;
     margin: 0 auto;
-    padding: 0.25vw 0.5vw;
+    padding: 0.5vw 0.75vw;
+    border-radius: 25%;
 
     font-size: 1.5vw;
 
     opacity: 100%;
     cursor: pointer;
 
-    transition: opacity 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 
 .button:hover {
     opacity: 50%;
+    border-radius: 0%;
 }
 
 .cite_1 {
