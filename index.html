@@ -1,127 +1,81 @@
-/* Hague wuz here tsneraiotsnreatioantesiraotnreaiotnre */
+<!--100% human ^w^-->
 
-/* Tags */
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-    background-color: rgb(255, 255, 255);
-    margin: 2vw;
-    font-family: 'times new roman';
-}
+<head>
+    <meta charset="UTF-8">
+    <title>Stop AI</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="icon" href="Photos/fav.png" type="image/png">
+</head>
 
-footer {
-    background-color: rgb(99, 99, 99);
-    margin: 0.25vw;
-    padding: 2vw;
-}
+<body>
+    <!-- (for later)
+        <input style="display: inline;" type="checkbox" id="DarkMode">
+        <div class="caption">Focussed Reading</div>
 
-/* Classes */
-.paragraph {
-    display: block;
-    text-align: left;
-    text-indent: 30px;
-    font-size: 1.5vw;
-    color: rgb(0, 0, 0);
+        <input type="checkbox" id="DarkMode">
+        <label class="paragraph" for="DarkModeToggle">Enable Dark Mode</label>
+    -->
 
-    transition: all 25ms ease-in-out;
-}
+    <div class="heading">What is the Carbon Cycle?</div><br>
+    <div class="paragraph">
+        The carbon cycle is a cycle of carbon (in the form of CO2) being added to or taken from the atmosphere,
+        balancing it out
+        The processes are usually done through processes, such as: combustion, AI generatio,n etc.. The cycle is the
+        balance of CO<sub>2</sub> getting removed and added. The problem is the imbalance of carbon in the
+        atmosphere. Too much or a lack of CO<sub>2</sub> will kill off most of the aerobic life on earth.
+        The problem right now is that we are producing too much CO<sub>2</sub>. This is through ways such as combustion,
+        burning, and exhaling. On the contrary, the way that CO<sub>2</sub> is used is mainly in photosynthesis for
+        plants
+        but due to deforestation, it isn't removing enough carbon from the atmosphere. (kmansfield).
+    </div><br>
+    <div class="paragraph">
+        We are the biggest problem when it comes to balancing the atmosphere is us. We create an unbalance of
+        CO<sub>2</sub>
+        in unnatural ways such as combustion, burning (for example, fossil fuels), Generative AI, and many more. We also
+        lower
+        CO<sub>2</sub> intake by chopping trees and trashing in the ocean.
+    </div>
+    <div class="paragraph">
+        <u>You</u> can help balance the atmosphere by:
+    </div>
+    <ul class="paragraph">
+        <li>Carpooling</li>
+        <li>Generative AI</li>
+        <li>Eating Healthier</li>
+        <li>Flying Less (The Global Goals)</li>
+    </ul><br>
+    <div class="caption">Diagram of carbon cycle</div>
+    <img src="Photos/diagram.png" alt="Diagram (if you see this, the image is not working)" class="picture">
+    <div class="caption">(kmansfield)</div><br>
+    <div class="heading">How does AI change the Carbon Cycle</div>
+    <div class="paragraph">
+        Now diving specfically in AI a modern cause of carbon cycle disruption. Massive amounts of energy is used for AI
+        every day.
+        It's not even limited to electricity LLM's use ~50 million gallons according to Barnett. This is even worse for
+        LLM's for example chatGPT has over 1 million GPUs (Zewe).
+    </div><br>
+    <div class="paragraph">
+        What are some ways to prevent AI? Some ways incude spreading awareness and donating. On a global scale more AI
+        regulation and laws will help in controlling AI. Regulation can also help with preventing illegal use casses, 
+        enviroment destruction (incuding the imbalance of the carbon cycle). 
+    </div>
+    <br><br><br>
 
-/*
-div:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-}
-*/
+    <footer>
+        <a href="./citations.html">
+            <button class="button">Works Cited (MLA)</button>
+        </a>
 
+        <button class="button" onclick="UnderConstruction()">Give Feedback</button>
 
-.heading {
-    display: block;
-    text-align: center;
-    font-size: 3vw;
-    color: rgb(0, 0, 0);
-}
+        <div class="footnote">Creator: Hague</div>
+        <div style="display: inline;" class="footnote">Github Repository: </div>
+        <a href="https://github.com/UwUcodeposter/stopai">https://github.com/UwUcodeposter/stopai</a>
+    </footer>
 
-.footnote {
-    font-size: 1vw;
-    color: rgb(255, 255, 255);
-}
-
-.button {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-    padding: 0.5vw 0.75vw;
-    border-width: 0.5vw;
-    border-radius: 25px;
-    
-    font-size: 1.5vw;
-    border-color: rgb(0, 0, 0);
-
-    opacity: 100%;
-    cursor: pointer;
-
-    transition: all 0.4s ease-in-out;
-}
-
-
-.button:hover {
-    opacity: 50%;
-    border-radius: 0%;
-}
-
-.picture {
-    opacity: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: crosshair;
-    
-    width: 30vw;
-    height: 20vw;
-
-    transition: opacity 100ms ease-in-out;
-}
-
-.picture:hover {
-    opacity: 80%;
-}
-
-.caption {
-    text-align: center;
-    font-size: 1vw;
-    color: rgb(0, 0, 0);
-}
-
-.cite_1 {
-    /* Used document design mode pasted and copied the style */
-
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 11pt; 
-    font-family: "Times New Roman"; 
-    line-height: 200%; 
-    margin-top: 0px; 
-    margin-bottom: 0em; 
-    margin-left: 36pt; 
-    tab-size: 36pt; 
-    text-indent: -36pt;
-}
-
-.cite_2 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 11pt; 
-    line-height: 200%; 
-    margin-top: 0px; 
-    margin-bottom: 0em; 
-    margin-left: 36pt; 
-    tab-size: 36pt; 
-    text-indent: -36pt;
-}
-
-.citeContainer_2 {
-    margin-top: 0px; 
-    margin-bottom: 0px; 
-    margin-left: -36pt;
-}
+    <script src="index.js"></script>
+</body>
+</html>
