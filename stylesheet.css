@@ -18,9 +18,20 @@ footer {
 .paragraph {
     display: block;
     text-align: left;
+    text-indent: 30px;
     font-size: 1.5vw;
     color: rgb(0, 0, 0);
+
+    transition: all 25ms ease-in-out;
 }
+
+/*
+div:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+*/
+
 
 .heading {
     display: block;
@@ -85,7 +96,7 @@ footer {
 .cite_1 {
     /* Used document design mode pasted and copied the style */
 
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 11pt; 
     font-family: "Times New Roman"; 
@@ -98,7 +109,7 @@ footer {
 }
 
 .cite_2 {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 11pt; 
     line-height: 200%; 
