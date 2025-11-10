@@ -54,7 +54,7 @@ div:hover {
     padding: 0.5vw 0.75vw;
     border-width: 0.5vw;
     border-radius: 25px;
-    
+
     font-size: 1.5vw;
     border-color: rgb(0, 0, 0);
 
@@ -76,11 +76,11 @@ div:hover {
     margin-left: auto;
     margin-right: auto;
     cursor: crosshair;
-    
+
     width: 30vw;
     height: 20vw;
 
-    transition: opacity 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
 }
 
 .picture:hover {
@@ -98,30 +98,30 @@ div:hover {
 
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 11pt; 
-    font-family: "Times New Roman"; 
-    line-height: 200%; 
-    margin-top: 0px; 
-    margin-bottom: 0em; 
-    margin-left: 36pt; 
-    tab-size: 36pt; 
+    font-size: 11pt;
+    font-family: "Times New Roman";
+    line-height: 200%;
+    margin-top: 0px;
+    margin-bottom: 0em;
+    margin-left: 36pt;
+    tab-size: 36pt;
     text-indent: -36pt;
 }
 
 .cite_2 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 11pt; 
-    line-height: 200%; 
-    margin-top: 0px; 
-    margin-bottom: 0em; 
-    margin-left: 36pt; 
-    tab-size: 36pt; 
+    font-size: 11pt;
+    line-height: 200%;
+    margin-top: 0px;
+    margin-bottom: 0em;
+    margin-left: 36pt;
+    tab-size: 36pt;
     text-indent: -36pt;
 }
 
 .citeContainer_2 {
-    margin-top: 0px; 
-    margin-bottom: 0px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: -36pt;
 }
